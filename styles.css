@@ -5,7 +5,7 @@ body {
     Find a web safe font you like, and add it 
     to your card.
     */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .avatar {
@@ -19,15 +19,19 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
-        
+    background: #FFF1E9;
+    color: #5E4D3F;
+    border-bottom: 20px solid #F9A8A1;
+    box-shadow: 0 5px 0.5em #443736;
     /*
     Challenge:
     Find a color palette you like on Coolors.co
     and use it in your business card.
      */
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
 
 .border-blue {
